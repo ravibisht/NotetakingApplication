@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateNote">
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/title"
+        android:hint="Title"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textSize="21sp" />
+
+    <EditText
+        android:id="@+id/note_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:height="400dp"
+        android:background="@drawable/title"
+        android:focusedByDefault="true"
+        android:gravity="top"
+        android:hint=" write something here ..."
+        android:padding="5dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp" />
+
+    <Button
+        android:id="@+id/save_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/save_button"
+        android:text="Save"
+        android:textColor="#fff"
+        android:textSize="21dp" />
+
+
+</LinearLayout>
