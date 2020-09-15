@@ -25,6 +25,9 @@ This Application never upload any data.
 
 </p>
 
+<h2>You May Download the apk by clicking below url
+[Download ](https://github.com/ravibisht/NotetakingApplication/blob/master/Jarvis%20(note%20taking%20appliction%20).apk)</h2>
+
 ## Screenshot Of Application 
 
 ## 1) All Notes Screen 
